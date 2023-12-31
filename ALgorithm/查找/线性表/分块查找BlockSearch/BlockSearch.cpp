@@ -41,5 +41,6 @@ int main()
     INDEXTABLE.index[3].start = 13, INDEXTABLE.index[3].end = 18,
     INDEXTABLE.index[3].MaxKey = 86;
     std::cout << BlockSearch(a, 9) << std::endl;
+    printf("hello world");
     return 0;
 }
