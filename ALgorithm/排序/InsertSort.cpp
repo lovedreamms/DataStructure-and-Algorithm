@@ -28,6 +28,7 @@ int main()
     {
         printf("%d\n",RL.r[i].key);
     }
+    printf("hello world");
     return 0;
 }
 void input(RecordList *RL)
@@ -41,4 +42,5 @@ void input(RecordList *RL)
         p++;
     }
     p = NULL;
+    
 }
