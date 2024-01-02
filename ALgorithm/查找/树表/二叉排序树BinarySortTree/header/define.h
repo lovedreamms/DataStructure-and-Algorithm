@@ -1,4 +1,4 @@
-#define ENDFLAG 0
+#define ENDFLAG 0 //结束符
 typedef int BSTkeyType;
 typedef char *BSTOtherInfo;
 typedef struct __BSTElemType{
@@ -7,6 +7,6 @@ typedef struct __BSTElemType{
 }BSTElemType;
 typedef struct __BSTNode{
     BSTElemType data;
-    struct __BSTNode *lchild;
-    struct __BSTNode *rchild;
+    __BSTNode *lchild;
+    __BSTNode *rchild;
 }BSTNode,BSTree;
